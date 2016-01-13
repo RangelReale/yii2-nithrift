@@ -47,6 +47,7 @@ thrift --gen php:server path/to/the/thrift/file
 
 The files should be like this:
 
+```
 -- ROOT
     -- config
     -- controllers
@@ -57,6 +58,7 @@ The files should be like this:
             -- file1
             -- file2
     ...
+```
 
 In the component configuration add the `thrift` component, with the
 Thrift definitions.
@@ -75,12 +77,12 @@ return [
 ]
 ```
 
-Implement your Thrift handlers in a separate class file, following the
+Implement your Thrift handlers in separate class files, following the
 thrift documentation. I recommend using a `services` directory on the application 
 root. There is no need to override or implement any other interface.
 
 Your controller should extend `RangelReale\nithrift\Controller`. You can use
-the custom Action class to implement the services.
+the custom `\RangelReale\nithrift\Action` class to implement the services.
 
 ```php
 class ApiController extends \RangelReale\nithrift\Controller
@@ -99,7 +101,7 @@ class ApiController extends \RangelReale\nithrift\Controller
 ```
 
 If you prefer, you can implement an inline action, and either return a
-\RangelReale\nithrift\Response object, or a processor object directly.
+`\RangelReale\nithrift\Response` object, or a processor object directly.
 
 ```php
 public function actionCalculator()
