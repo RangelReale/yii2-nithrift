@@ -81,7 +81,7 @@ Implement your Thrift handlers in separate class files, following the
 thrift documentation. I recommend using a `services` directory on the application 
 root. There is no need to override or implement any other interface.
 
-Your controller should extend `RangelReale\nithrift\Controller`. You can use
+Your controller should extend `\RangelReale\nithrift\Controller`. You can use
 the custom `\RangelReale\nithrift\Action` class to implement the services.
 
 ```php

@@ -3,13 +3,12 @@
 namespace RangelReale\nithrift;
 
 use Yii;
-use yii\web\Response;
 
 /**
  * Response of a Thrift request.
  * @author Rangel Reale <rangelspam@gmail.com>
  */
-class Response extends Response
+class Response extends \yii\web\Response
 {
     /**
      * @var string set response format to Thrift format

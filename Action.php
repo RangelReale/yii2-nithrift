@@ -3,13 +3,12 @@
 namespace RangelReale\nithrift;
 
 use Yii;
-use yii\base\Action;
 
 /**
  * Action for a Thrift request.
  * @author Rangel Reale <rangelspam@gmail.com>
  */
-class Action extends Action
+class Action extends \yii\base\Action
 {
     /**
      * Class for the Thrift handler.

@@ -3,13 +3,12 @@
 namespace RangelReale\nithrift;
 
 use Yii;
-use yii\web\Controller;
 
 /**
  * Base controller for Thrift handling.
  * @author Rangel Reale <rangelspam@gmail.com>
  */
-class Controller extends Controller
+class Controller extends \yii\web\Controller
 {
     /**
      * Thrift uses POST, must disable csrf validation
