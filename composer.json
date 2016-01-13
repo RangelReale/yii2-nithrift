@@ -1,0 +1,22 @@
+{
+    "name": "RangelReale/yii2-nithrift",
+    "description": "Thrift server application using Yii2",
+    "keywords": ["yii2", "thrift"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rangel Reale",
+            "email": "rangelspam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RangelReale\\nithrift\\": ""
+        }
+    }
+}
