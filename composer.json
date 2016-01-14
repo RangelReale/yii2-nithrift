@@ -1,5 +1,5 @@
 {
-    "name": "RangelReale/yii2-nithrift",
+    "name": "rangelreale/yii2-nithrift",
     "description": "Thrift server application using Yii2",
     "keywords": ["yii2", "thrift"],
     "license": "BSD-3-Clause",
